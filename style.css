@@ -331,25 +331,3 @@ footer p {
 
   position: relative;
 }
-
-/* Optional: dark overlay for text readability */
-.hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.45);
-}
-
-/* Ensure text is above overlay */
-.hero .container {
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  color: #ffffff;
-}
-
-/* Title styling */
-.main-title {
-  font-size: clamp(2rem, 4vw, 3.2rem);
-  margin-bottom: 1rem;
-}
